@@ -1,33 +1,23 @@
 # 必读
 
-下载： [蓝奏云(密码0000)](https://wwa.lanzoui.com/b010qimmf) /
-[github release](https://github.com/tkkcc/ArkLights/releases)
+下载： [蓝奏云](https://asdqp.lanzout.com/iZzVG1wtm4yd) /
+[Github Release](https://github.com/AegirTech/ArkLights/releases)
 
-QQ闲聊群：[1009619697](https://qm.qq.com/cgi-bin/qm/qr?k=ZtJVQZ1LI_9nMh3tj7fKgYu5PrwqBCje&jump_from=webapi)
+QQ闲聊群：[629618641](https://qm.qq.com/q/DpsAuHgNxe)
 
 QQ频道号：[h800n9f23g](https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=1W5HRqT&appChannel=share&businessType=9&from=246610&biz=ka)
 
 [云控](#云端控制)平台：[github.com/AegirTech](https://github.com/AegirTech)
 
-github源码：[github.com/tkkcc/ArkLights](https://github.com/tkkcc/ArkLights)  
+项目源码(截止24.2.1前)[AegirTech/ArkLights](https://github.com/AegirTech/ArkLights)  
+
+原始项目源码：[github.com/tkkcc/ArkLights](https://github.com/tkkcc/ArkLights)  
 觉得好用请在github上点个star。
 
 ## 最近更新
-
-- 10至12章的每个关卡，优先用标准环境，超失败次数后用磨难环境
-- [B服打码](#登陆出现点击验证码)
-
-<!-- - 可使用[pushplus通知](#qq通知怎么用)，支持微信公众号、邮件等多种渠道。 -->
-<!-- - magisk hide设备需**手动关闭root授权提示**，否则root提示影响速通识别。 -->
-<!-- - 默认不自动重启acc进程，但这样刷肉鸽每小时内存泄漏44M，一天1G。启用后会定期释放速通内存，但在部分设备上会造成启动失败与闪退。 -->
-<!-- - 单号最大剿灭次数默认为1。 -->
-<!-- - 5月19日前下载的用户需要重下apk，可覆盖安装，设置不丢 -->
-<!-- - 幕后筹备抽空升级默认开启，高级设置中可关 -->
-<!-- - 控制中枢与会客厅换班默认开启，高级设置中可关 -->
-<!-- - 多账号跳过空账密默认开启，高级设置中可关 -->
-<!-- - 自动用全权委托 -->
-<!-- - 新增活动关SN-1~SN-10，1280x720分辨率可用关卡名，**其他分辨率只能用`上一次`** -->
-<!-- - 新增CE-6、LS-6 -->
+- 自动抄作业
+- 隐秘战线
+- 悖论模拟
 
 ## 设备兼容
 
@@ -38,6 +28,8 @@ github源码：[github.com/tkkcc/ArkLights](https://github.com/tkkcc/ArkLights)
 :::
 
 #### 模拟器
+
+**推荐使用雷电模拟器9，开发者可能没时间对于其他模拟器进行适配**
 
 支持 雷电、逍遥（选OpenGL渲染）、蓝叠（选高级/高阶/兼容图形引擎）、mumu9（但启动闪屏）、genymotion（安卓10）
 
@@ -118,6 +110,7 @@ adb -s 123.456.789.101:234 shell "nohup su root sh -c 'nc -klp49876 -e sh' > /de
 法3. 快速按红色停止按钮
 
 #### 怎么关闭震动/关闭声音
+
 右上角设置里关
 
 #### 能不能不弹出日志框
@@ -309,6 +302,10 @@ pr1 => pr-b-1 pr-a-1 pr-c-1 pr-d-1 pr-b-1 ...
 #### 作战有没有状态或记忆
 
 没有。每次启动从第一关开始执行。
+
+#### 没有进行代理作战直接跳过
+
+取消勾选`测试功能` 中的`不打已三星关卡`
 
 ### 基建换班
 
@@ -674,30 +671,6 @@ pr1 => pr-b-1 pr-a-1 pr-c-1 pr-d-1 pr-b-1 ...
 # 设置干员技能，设置等级需求125，开打
 0 m 9 rg2 1 0 1 125
 
-```
-
-#### 平台相关
-
-```sh
-# 听单
-0 dlt
-# 接单
-0 o
-# 订单详情
-0 d
-# 上传首图/完单图/进度图
-0 first
-0 last
-0 submit
-# 申请完单
-0 over
-# 订单列表
-0 my
-# 检查多打与少打/获取最新截图
-0 check
-# 验证账号密码
-0 a 12345 6789
-0 a 12345 6789 --server
 ```
 
 ## 云端控制
