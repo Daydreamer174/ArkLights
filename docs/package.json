@@ -2,6 +2,7 @@
   "name": "arklights",
   "version": "0.0.1",
   "description": "Arklights文档",
+  "base":"/ArkLights/",
   "license": "MIT",
   "type": "module",
   "scripts": {
