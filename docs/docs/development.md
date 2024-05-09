@@ -14,9 +14,10 @@ ArkLights（速通）是一个开源的，几乎没有任何限制的开源项�
 ### 推荐工具
 
 - Visual Studio Code
-  - `sumneko.lua`(格式化标准)
+  - `sumneko.lua`
   - `formulahendry.code-runner`
-  - `教主.lrzs`(可选，可能无法在vsc插件商店中找到,提供懒人精灵函数补全)
+  - `Koihik.vscode-lua-format`(可选)
+  - `教主.lrzs`(可选，可能无法在vsc插件商店中找到)
 - 懒人精灵
 
 ### 开发环境部署
@@ -26,6 +27,10 @@ ArkLights（速通）是一个开源的，几乎没有任何限制的开源项�
 3. 从仓库拉取最新的代码到本地
 4. 根据仓库项目结构手动创建相同的空文件到懒人精灵的工程中
 5. 修改本地仓库中的`0.py`的路径配置，并运行 `python3 0.py saverun` （需要管理员权限）
+
+## Linux开发指南
+
+TODO
 
 ## 常用注释
 

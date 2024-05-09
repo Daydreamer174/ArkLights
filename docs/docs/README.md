@@ -1,6 +1,6 @@
 ---
 home: true
-
+title: Home
 actions:
   - text: 立即使用
     link: /guide.html
@@ -19,6 +19,5 @@ features:
     details: 多账号独立设置、信用商品优先级、抢登次数设置、自动吃快过期理智药...
   - title: 允许商用
     details: 不限商用，修改可闭源。
-
 
 ---
