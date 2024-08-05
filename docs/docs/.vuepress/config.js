@@ -10,7 +10,7 @@ export default defineUserConfig({
   repo: 'AegirTech/ArkLights',
 
   theme: defaultTheme({
-    sidebarDepth: 3,
+    sidebarDepth: 2,
     navbar: [{ text: '必读', link: '/guide.md' },{ text: '开发', link: '/development.md' },],
   }),
   markdown: {
