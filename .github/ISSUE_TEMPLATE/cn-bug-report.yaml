@@ -1,0 +1,68 @@
+name: 问题报告
+description: 报告存在的问题
+title: '[问题报告] '
+body:
+  - type: markdown
+    attributes:
+      value: "### 请在标题中简要的描述问题"
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 自查确认
+      options:
+        - label: 我确认当前使用了最新Release的安装包
+          required: true
+        - label: 我确认已经更新到最新版
+          required: true
+  - type: textarea
+    id: describe
+    attributes:
+      label: 问题描述
+      description: 请尽可能详细的描述问题
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: >-
+        复现此问题的详细步骤
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望的行为
+      description: >-
+        正常的情况下程序应该如何运作
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 截图或录屏
+      description: |
+        请添加相关的截图
+    validations:
+      required: false
+  - type: textarea
+    id: version
+    attributes:
+      label: 版本信息
+      description: |
+        版本信息会显示在日志悬浮窗的绿色标题区域，主版本号为 4 位数字如 1000，更新时间为一个时间如 12:00
+        - 主版本号:
+        - 更新时间:
+      placeholder: |
+        - 主版本号:
+        - 更新时间:
+    validations:
+      required: true
+  - type: textarea
+    id: others
+    attributes:
+      label: 其他内容
+      description: |
+        若有其他内容请写在这里
+    validations:
+      required: false
